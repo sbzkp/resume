@@ -1,12 +1,12 @@
-# Showdown [![build status](https://secure.travis-ci.org/coreyti/showdown.png)](http://travis-ci.org/coreyti/showdown)
+# Showdown [![build status](https://secure.travis-ci.org/coreyti/showdown.png)](https://travis-ci.org/coreyti/showdown)
 
 A JavaScript port of Markdown
 
 ## Note
 
   > **Please note** that I, [Corey](https://github.com/coreyti), am not the author
-  > of Showdown. Rather, I found it some time back at <http://attacklab.net/showdown/>
-  > (website removed, see: <http://wayback.archive.org/web/*/http://attacklab.net/showdown>)
+  > of Showdown. Rather, I found it some time back at <https://attacklab.net/showdown/>
+  > (website removed, see: <https://wayback.archive.org/web/*/https://attacklab.net/showdown>)
   > and wanted to see it available on GitHub.
   >
   > All credit and praise for authoring this library should go to John Fraser.
@@ -25,10 +25,10 @@ A JavaScript port of Markdown
 ## Original Attributions
 
 Showdown Copyright (c) 2007 John Fraser.
-<http://www.attacklab.net/>
+<https://www.attacklab.net/>
 
 Original Markdown Copyright (c) 2004-2005 John Gruber
-<http://daringfireball.net/projects/markdown/>
+<https://daringfireball.net/projects/markdown/>
 
 Redistributable under a BSD-style open source license.
 See license.txt for more information.
@@ -156,8 +156,8 @@ In most cases, Showdown's output is identical to that of Perl Markdown v1.0.2b7.
   * You can only nest square brackets in link titles to a
     depth of two levels:
 
-        [[fine]](http://www.attacklab.net/)
-        [[[broken]]](http://www.attacklab.net/)
+        [[fine]](https://www.attacklab.net/)
+        [[[broken]]](https://www.attacklab.net/)
 
     If you need more, you can escape them with backslashes.
 
@@ -187,7 +187,7 @@ In most cases, Showdown's output is identical to that of Perl Markdown v1.0.2b7.
     inline-style images:
 
         Here's an empty title on an inline-style
-        ![image](http://w3.org/Icons/valid-xhtml10).
+        ![image](https://w3.org/Icons/valid-xhtml10).
 
     I tried to replicate this to clean up my diffs during
     testing, but I went too far: now Showdown also makes
@@ -196,7 +196,7 @@ In most cases, Showdown's output is identical to that of Perl Markdown v1.0.2b7.
         Showdown  makes an empty title for
         reference-style ![images][] too.
 
-        [images]: http://w3.org/Icons/valid-xhtml10
+        [images]: https://w3.org/Icons/valid-xhtml10
 
 
   * With crazy input, Markdown will mistakenly put
@@ -226,7 +226,7 @@ New test cases can easily be added.  Create a markdown file (ending in `.md`) wh
 
 A showdown extension is simply a function which returns an array of extensions.  Each single extension can be one of two types:
 
-  * Language Extension -- Language extensions are ones that that add new markdown syntax to showdown.  For example, say you wanted `^^youtube http://www.youtube.com/watch?v=oHg5SJYRHA0` to automatically render as an embedded YouTube video, that would be a language extension.
+  * Language Extension -- Language extensions are ones that that add new markdown syntax to showdown.  For example, say you wanted `^^youtube https://www.youtube.com/watch?v=oHg5SJYRHA0` to automatically render as an embedded YouTube video, that would be a language extension.
   * Output Modifiers -- After showdown has run, and generated HTML, an output modifier would change that HTML.  For example, say you wanted to change `<div class="header">` to be `<header>`, that would be an output modifier.
 
 Each extension can provide two combinations of interfaces for showdown.
@@ -296,12 +296,12 @@ The showdown test runner is setup to automatically test cases for extensions.  T
 ## Credits
 
   * Origins
-    * [John Fraser](http://attacklab.net/):<br/>
+    * [John Fraser](https://attacklab.net/):<br/>
       Author of Showdown
-    * [John Gruber](http://daringfireball.net/projects/markdown/):<br/>
+    * [John Gruber](https://daringfireball.net/projects/markdown/):<br/>
       Author of Markdown
   * Maintenance/Contributions (roughly chronologically)
-    * [Corey Innis](http://github.com/coreyti):<br/>
+    * [Corey Innis](https://github.com/coreyti):<br/>
       GitHub project maintainer
     * [Remy Sharp](https://github.com/remy/):<br/>
       CommonJS-compatibility and more

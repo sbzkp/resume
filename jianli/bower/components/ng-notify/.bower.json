@@ -16,7 +16,7 @@
     "Provider"
   ],
   "license": "MIT",
-  "homepage": "http://matowens.github.com/ng-notify",
+  "homepage": "https://matowens.github.com/ng-notify",
   "ignore": [
     "**/.*",
     "node_modules",

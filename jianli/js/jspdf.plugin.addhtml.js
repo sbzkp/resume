@@ -3,7 +3,7 @@
  * Copyright (c) 2014 Diego Casorran
  *
  * Licensed under the MIT License.
- * http://opensource.org/licenses/mit-license
+ * https://opensource.org/licenses/mit-license
  */
 
 (function (jsPDFAPI) {

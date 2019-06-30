@@ -1,6 +1,6 @@
 //
 //  Google Prettify
-//  A showdown extension to add Google Prettify (http://code.google.com/p/google-code-prettify/)
+//  A showdown extension to add Google Prettify (https://code.google.com/p/google-code-prettify/)
 //  hints to showdown's HTML output.
 //
 

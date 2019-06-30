@@ -1,6 +1,6 @@
 var deerResume = angular.module('deerResume', ['ngRoute','wiz.markdown','ngNotify','angularLocalStorage']);
 
-var baseurl = 'http://cvbox.sinaapp.com/'; // 使用SAE托管简历数据
+var baseurl = 'https://cvbox.sinaapp.com/'; // 使用SAE托管简历数据
 // var baseurl = 'data.php'; // 使用本地文件托管简历数据，本地模式下，不支持在线编辑
 
 
@@ -106,7 +106,7 @@ deerResume.controller('adminCtrl', function ($scope,$http,storage,ngNotify) {
 // ============
 function makepdf()
 {
-  //post('http://pdf.ftqq.com',{'title':$('#drtitle').html(),'subtitle':$('#drsubtitle').html(),'content':$('#cvcontent').html(),'pdfkey':'jobdeersocool'});
+  //post('https://pdf.ftqq.com',{'title':$('#drtitle').html(),'subtitle':$('#drsubtitle').html(),'content':$('#cvcontent').html(),'pdfkey':'jobdeersocool'});
   $("#hform [name=title]").val($('#drtitle').html());
   $("#hform [name=subtitle]").val($('#drsubtitle').html());
   $("#hform [name=content]").val($('#cvcontent').html());

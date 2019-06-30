@@ -1,7 +1,7 @@
 //
 //  Twitter Extension
-//  @username   ->  <a href="http://twitter.com/username">@username</a>
-//  #hashtag    ->  <a href="http://twitter.com/search/%23hashtag">#hashtag</a>
+//  @username   ->  <a href="https://twitter.com/username">@username</a>
+//  #hashtag    ->  <a href="https://twitter.com/search/%23hashtag">#hashtag</a>
 //
 
 (function(){
@@ -15,7 +15,7 @@
                 if (leadingSlash === '\\') {
                     return match;
                 } else {
-                    return '<a href="http://twitter.com/' + username + '">@' + username + '</a>';
+                    return '<a href="https://twitter.com/' + username + '">@' + username + '</a>';
                 }
             }},
 
@@ -25,7 +25,7 @@
                 if (leadingSlash === '\\') {
                     return match;
                 } else {
-                    return '<a href="http://twitter.com/search/%23' + tag + '">#' + tag + '</a>';
+                    return '<a href="https://twitter.com/search/%23' + tag + '">#' + tag + '</a>';
                 }
             }},
 

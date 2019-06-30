@@ -7,7 +7,7 @@ Both JS and CSS files combine for < 4 kBs.
 
 IE8+ and the latest versions of Chrome, FireFox and Safari have been tested and are supported.  If you do run across any issues, please submit a [new issue](https://github.com/matowens/ng-notify/issues) and I'll take a look.
 
-You can check out the demo here: [http://matowens.github.io/ng-notify](http://matowens.github.io/ng-notify)
+You can check out the demo here: [https://matowens.github.io/ng-notify](https://matowens.github.io/ng-notify)
 
 New in v0.4.0 are **sticky notifications**.  When enabled, notifications won't fade out until the user dismisses them.  This, too, can be set as a default option for all notifications or just set for individual notifications on a case by case basis.  For more on how to use this sticky feature, check out the [Sticky Notifications](#sticky-notifications) section below.  For more on updates, head on over to the [changelog](https://github.com/matowens/ng-notify/blob/master/CHANGELOG.md).
 

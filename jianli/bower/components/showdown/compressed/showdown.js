@@ -4,7 +4,7 @@
 // Copyright (c) 2007 John Fraser.
 //
 // Original Markdown Copyright (c) 2004-2005 John Gruber
-//   <http://daringfireball.net/projects/markdown/>
+//   <https://daringfireball.net/projects/markdown/>
 //
 // Redistributable under a BSD-style open source license.
 // See license.txt for more information.
@@ -15,7 +15,7 @@
 //				T C A
 //				T K B
 //
-//   <http://www.attacklab.net/>
+//   <https://www.attacklab.net/>
 //
 //
 // Wherever possible, Showdown is a straight, line-by-line port

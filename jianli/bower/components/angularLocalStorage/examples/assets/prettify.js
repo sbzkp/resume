@@ -4,7 +4,7 @@
 // you may not use this file except in compliance with the License.
 // You may obtain a copy of the License at
 //
-//      http://www.apache.org/licenses/LICENSE-2.0
+//      https://www.apache.org/licenses/LICENSE-2.0
 //
 // Unless required by applicable law or agreed to in writing, software
 // distributed under the License is distributed on an "AS IS" BASIS,
@@ -201,7 +201,7 @@ function _pr_isIE6() {
 
 	/** A set of tokens that can precede a regular expression literal in
 	 * javascript.
-	 * http://www.mozilla.org/js/language/js20/rationale/syntax.html has the full
+	 * https://www.mozilla.org/js/language/js20/rationale/syntax.html has the full
 	 * list, but I've removed ones that might be problematic when seen in
 	 * languages that don't support regular expression literals.
 	 *
@@ -987,7 +987,7 @@ function _pr_isIE6() {
 				// into pre blocks for some strange reason.
 				// It's necessary for IE though which seems to lose the preformattedness
 				// of <pre> tags when their innerHTML is assigned.
-				// http://stud3.tuwien.ac.at/~e0226430/innerHtmlQuirk.html
+				// https://stud3.tuwien.ac.at/~e0226430/innerHtmlQuirk.html
 				// and it serves to undo the conversion of <br>s to newlines done in
 				// chunkify.
 				var htmlChunk = textToHtml(
